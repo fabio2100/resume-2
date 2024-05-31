@@ -111,10 +111,12 @@ a {
 
 .cardDisplayer{
   display: flex;
+  flex-direction: row;
   overflow-x: scroll;
   scroll-snap-type: x;
   border: solid white 2px;
   width : 100%;
+  margin-top: 2em;
 }
 
 .cardDisplayer::-webkit-scrollbar{
@@ -123,7 +125,7 @@ a {
 
 .card{
   border: 1px solid white;
-  height: 200px;
+  max-height: 200px;
   margin-left: 0.25em;
   overflow-y: hidden;
   overflow-y: scroll;
