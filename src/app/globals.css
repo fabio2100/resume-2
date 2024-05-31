@@ -105,3 +105,27 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+
+.cardDisplayer{
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x;
+  border: solid white 2px;
+  width : 100%;
+}
+
+.cardDisplayer::-webkit-scrollbar{
+  display: none;
+}
+
+.card{
+  border: 1px solid white;
+  height: 200px;
+  margin-left: 0.25em;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  min-width: 200px;
+}
