@@ -27,26 +27,6 @@ export default function Home() {
         <MainCard />
         <MainCard />
       </CardDisplayer>
-      <div className="cardDisplayer">
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-        <MainCard />
-      </div>
     </main>
    
   );

@@ -114,7 +114,6 @@ a {
   flex-direction: row;
   overflow-x: scroll;
   scroll-snap-type: x;
-  border: solid white 2px;
   width : 100%;
   margin-top: 2em;
   align-items: center;
@@ -125,7 +124,6 @@ a {
 }
 
 .card{
-  border: 1px solid white;
   max-height: 200px;
   margin-left: 0.25em;
   overflow-y: hidden;
@@ -141,4 +139,13 @@ a {
 .botonesScrollLeft{
   position: fixed;
   left: 25px;
+}
+
+.mainCard{
+  border: 2px solid white;
+  border-radius: 12px;
+  margin-left: 12px;
+  min-height: 250px;
+  min-width: 250px;
+  background-color: #63636382
 }
