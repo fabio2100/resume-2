@@ -117,6 +117,7 @@ a {
   border: solid white 2px;
   width : 100%;
   margin-top: 2em;
+  align-items: center;
 }
 
 .cardDisplayer::-webkit-scrollbar{
@@ -130,4 +131,14 @@ a {
   overflow-y: hidden;
   overflow-y: scroll;
   min-width: 200px;
+}
+
+.botonesScrollRigth{
+  position: absolute;
+  right: 25px;
+}
+
+.botonesScrollLeft{
+  position: fixed;
+  left: 25px;
 }
