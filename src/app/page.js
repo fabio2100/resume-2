@@ -19,9 +19,10 @@ export default function Home() {
       <div>{t('title')}</div>
       <button onClick={changeLanguage}>Change language</button>
       <CardDisplayer className="cardDisplayer">
-        <TechCard logo={''}/>
-        <TechCard logo={''}/>
-        <TechCard logo={''}/>
+        <TechCard logo={"assets/img/icons8-react-80.png"}/>
+        <TechCard logo={"assets/img/icons8-php-100.png"}/>
+        <TechCard logo={"assets/img/icons8-codeigniter-96.png"}/>
+        <TechCard logo={"assets/img/icons8-nodejs-96.png"}/>
         <MainCard />
         <MainCard />
         <MainCard />
